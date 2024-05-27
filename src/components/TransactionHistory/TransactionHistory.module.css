@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.tableHead {
+  background-color: grey;
+  color: white;
+}
+
+.tableHead .cell {
+  font-weight: bold;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.cell {
+  border: 1px solid black;
+  text-align: center;
+  text-transform: capitalize;
+}
